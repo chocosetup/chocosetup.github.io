@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Double-A-92/chocosetup/static/css/main.5f361e03.chunk.css",
-    "main.js": "/Double-A-92/chocosetup/static/js/main.68ad6191.chunk.js",
-    "main.js.map": "/Double-A-92/chocosetup/static/js/main.68ad6191.chunk.js.map",
-    "runtime-main.js": "/Double-A-92/chocosetup/static/js/runtime-main.08fe78bd.js",
-    "runtime-main.js.map": "/Double-A-92/chocosetup/static/js/runtime-main.08fe78bd.js.map",
-    "static/js/2.ea8d69a6.chunk.js": "/Double-A-92/chocosetup/static/js/2.ea8d69a6.chunk.js",
-    "static/js/2.ea8d69a6.chunk.js.map": "/Double-A-92/chocosetup/static/js/2.ea8d69a6.chunk.js.map",
-    "index.html": "/Double-A-92/chocosetup/index.html",
-    "precache-manifest.02fd5d3df2dff3bfa87ad57fa717e96c.js": "/Double-A-92/chocosetup/precache-manifest.02fd5d3df2dff3bfa87ad57fa717e96c.js",
-    "service-worker.js": "/Double-A-92/chocosetup/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/Double-A-92/chocosetup/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.ea8d69a6.chunk.js.LICENSE.txt": "/Double-A-92/chocosetup/static/js/2.ea8d69a6.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/Double-A-92/chocosetup/static/media/logo.5d5d9eef.svg"
+    "main.css": "/chocosetup/static/css/main.5f361e03.chunk.css",
+    "main.js": "/chocosetup/static/js/main.a38cbd1e.chunk.js",
+    "main.js.map": "/chocosetup/static/js/main.a38cbd1e.chunk.js.map",
+    "runtime-main.js": "/chocosetup/static/js/runtime-main.77ee3b14.js",
+    "runtime-main.js.map": "/chocosetup/static/js/runtime-main.77ee3b14.js.map",
+    "static/js/2.ea8d69a6.chunk.js": "/chocosetup/static/js/2.ea8d69a6.chunk.js",
+    "static/js/2.ea8d69a6.chunk.js.map": "/chocosetup/static/js/2.ea8d69a6.chunk.js.map",
+    "index.html": "/chocosetup/index.html",
+    "precache-manifest.11aa863140eb2ba80c9766427d28d811.js": "/chocosetup/precache-manifest.11aa863140eb2ba80c9766427d28d811.js",
+    "service-worker.js": "/chocosetup/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/chocosetup/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.ea8d69a6.chunk.js.LICENSE.txt": "/chocosetup/static/js/2.ea8d69a6.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/chocosetup/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.08fe78bd.js",
+    "static/js/runtime-main.77ee3b14.js",
     "static/js/2.ea8d69a6.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.68ad6191.chunk.js"
+    "static/js/main.a38cbd1e.chunk.js"
   ]
 }
