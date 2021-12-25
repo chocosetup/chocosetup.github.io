@@ -1,0 +1,38 @@
+.category {
+    background-color: aliceblue;
+    height: auto;
+    width: auto;
+    min-width: 10rem;
+    margin: 1.5rem;
+    padding: 0rem 2rem;
+    border: thin solid rgba(40, 44, 52, 0.25);
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: inherit;
+}
+
+li {
+    padding-left: 0;
+    list-style: none;
+    text-align: left;
+}
+
+label {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}

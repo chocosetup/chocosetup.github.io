@@ -1,0 +1,19 @@
+.header {
+    background-color: #282c34;
+    height: 4rem;
+    position: relative;
+}
+
+#logo {
+    height: 80%;
+    filter: brightness(0) invert(1);
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
