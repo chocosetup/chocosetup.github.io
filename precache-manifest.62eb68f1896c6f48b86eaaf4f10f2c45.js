@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "32893f3a12d20021dbe1dc02eb664a8c",
+    "revision": "6b9282a89ba836ecceb24befe122662c",
     "url": "/chocosetup/index.html"
   },
   {
-    "revision": "c03668faf0add468a276",
-    "url": "/chocosetup/static/css/main.5f361e03.chunk.css"
+    "revision": "00dee5752ec53f021acb",
+    "url": "/chocosetup/static/css/main.6e332106.chunk.css"
   },
   {
     "revision": "7daf20435e2e69b23481",
@@ -16,15 +16,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chocosetup/static/js/2.ea8d69a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c03668faf0add468a276",
-    "url": "/chocosetup/static/js/main.a38cbd1e.chunk.js"
+    "revision": "00dee5752ec53f021acb",
+    "url": "/chocosetup/static/js/main.87865a8c.chunk.js"
   },
   {
     "revision": "c3d616df241f09dc24be",
     "url": "/chocosetup/static/js/runtime-main.77ee3b14.js"
-  },
-  {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/chocosetup/static/media/logo.5d5d9eef.svg"
   }
 ]);

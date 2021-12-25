@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/chocosetup/static/css/main.5f361e03.chunk.css",
-    "main.js": "/chocosetup/static/js/main.a38cbd1e.chunk.js",
-    "main.js.map": "/chocosetup/static/js/main.a38cbd1e.chunk.js.map",
+    "main.css": "/chocosetup/static/css/main.6e332106.chunk.css",
+    "main.js": "/chocosetup/static/js/main.87865a8c.chunk.js",
+    "main.js.map": "/chocosetup/static/js/main.87865a8c.chunk.js.map",
     "runtime-main.js": "/chocosetup/static/js/runtime-main.77ee3b14.js",
     "runtime-main.js.map": "/chocosetup/static/js/runtime-main.77ee3b14.js.map",
     "static/js/2.ea8d69a6.chunk.js": "/chocosetup/static/js/2.ea8d69a6.chunk.js",
     "static/js/2.ea8d69a6.chunk.js.map": "/chocosetup/static/js/2.ea8d69a6.chunk.js.map",
     "index.html": "/chocosetup/index.html",
-    "precache-manifest.109e56279b6af2b1a5b507711d85e626.js": "/chocosetup/precache-manifest.109e56279b6af2b1a5b507711d85e626.js",
+    "precache-manifest.62eb68f1896c6f48b86eaaf4f10f2c45.js": "/chocosetup/precache-manifest.62eb68f1896c6f48b86eaaf4f10f2c45.js",
     "service-worker.js": "/chocosetup/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/chocosetup/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.ea8d69a6.chunk.js.LICENSE.txt": "/chocosetup/static/js/2.ea8d69a6.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/chocosetup/static/media/logo.5d5d9eef.svg"
+    "static/css/main.6e332106.chunk.css.map": "/chocosetup/static/css/main.6e332106.chunk.css.map",
+    "static/js/2.ea8d69a6.chunk.js.LICENSE.txt": "/chocosetup/static/js/2.ea8d69a6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.77ee3b14.js",
     "static/js/2.ea8d69a6.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.a38cbd1e.chunk.js"
+    "static/css/main.6e332106.chunk.css",
+    "static/js/main.87865a8c.chunk.js"
   ]
 }
