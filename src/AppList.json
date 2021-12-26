@@ -22,6 +22,10 @@
         {
           "name": "Vivaldi",
           "chocoid": "vivaldi"
+        },
+        {
+          "name": "Brave",
+          "chocoid": "brave"
         }
       ]
     },
@@ -45,251 +49,8 @@
           "chocoid": "zoom"
         },
         {
-          "name": "Thunderbird",
-          "chocoid": "thunderbird"
-        }
-      ]
-    },
-    {
-      "name": "Messaging",
-      "apps": [
-        {
-          "name": "Discord",
-          "chocoid": "discord"
-        },
-        {
-          "name": "Telegram",
-          "chocoid": "telegram"
-        },
-        {
-          "name": "Skype",
-          "chocoid": "skype"
-        },
-        {
-          "name": "Zoom",
-          "chocoid": "zoom"
-        },
-        {
-          "name": "Thunderbird",
-          "chocoid": "thunderbird"
-        }
-      ]
-    },
-    {
-      "name": "Messaging",
-      "apps": [
-        {
-          "name": "Discord",
-          "chocoid": "discord"
-        },
-        {
-          "name": "Telegram",
-          "chocoid": "telegram"
-        },
-        {
-          "name": "Skype",
-          "chocoid": "skype"
-        },
-        {
-          "name": "Zoom",
-          "chocoid": "zoom"
-        },
-        {
-          "name": "Thunderbird",
-          "chocoid": "thunderbird"
-        }
-      ]
-    },
-    {
-      "name": "Messaging",
-      "apps": [
-        {
-          "name": "Discord",
-          "chocoid": "discord"
-        },
-        {
-          "name": "Telegram",
-          "chocoid": "telegram"
-        },
-        {
-          "name": "Thunderbird",
-          "chocoid": "thunderbird"
-        }
-      ]
-    },
-    {
-      "name": "Messaging",
-      "apps": [
-        {
-          "name": "Discord",
-          "chocoid": "discord"
-        },
-        {
-          "name": "Telegram",
-          "chocoid": "telegram"
-        },
-        {
-          "name": "Skype",
-          "chocoid": "skype"
-        },
-        {
-          "name": "Zoom",
-          "chocoid": "zoom"
-        },
-        {
-          "name": "Thunderbird",
-          "chocoid": "thunderbird"
-        }
-      ]
-    },
-    {
-      "name": "Messaging",
-      "apps": [
-        {
-          "name": "Zoom",
-          "chocoid": "zoom"
-        },
-        {
-          "name": "Thunderbird",
-          "chocoid": "thunderbird"
-        }
-      ]
-    },
-    {
-      "name": "Messaging",
-      "apps": [
-        {
-          "name": "Discord",
-          "chocoid": "discord"
-        },
-        {
-          "name": "Telegram",
-          "chocoid": "telegram"
-        },
-        {
-          "name": "Skype",
-          "chocoid": "skype"
-        },
-        {
-          "name": "Zoom",
-          "chocoid": "zoom"
-        },
-        {
-          "name": "Thunderbird",
-          "chocoid": "thunderbird"
-        }
-      ]
-    },
-    {
-      "name": "Messaging",
-      "apps": [
-        {
-          "name": "Discord",
-          "chocoid": "discord"
-        },
-        {
-          "name": "Telegram",
-          "chocoid": "telegram"
-        },
-        {
-          "name": "Skype",
-          "chocoid": "skype"
-        },
-        {
-          "name": "Zoom",
-          "chocoid": "zoom"
-        },
-        {
-          "name": "Thunderbird",
-          "chocoid": "thunderbird"
-        }
-      ]
-    },
-    {
-      "name": "Messaging",
-      "apps": [
-        {
-          "name": "Discord",
-          "chocoid": "discord"
-        },
-        {
-          "name": "Telegram",
-          "chocoid": "telegram"
-        },
-        {
-          "name": "Skype",
-          "chocoid": "skype"
-        },
-        {
-          "name": "Zoom",
-          "chocoid": "zoom"
-        },
-        {
-          "name": "Thunderbird",
-          "chocoid": "thunderbird"
-        }
-      ]
-    },
-    {
-      "name": "Messaging",
-      "apps": [
-        {
-          "name": "Discord",
-          "chocoid": "discord"
-        },
-        {
-          "name": "Telegram",
-          "chocoid": "telegram"
-        },
-        {
-          "name": "Skype",
-          "chocoid": "skype"
-        },
-        {
-          "name": "Zoom",
-          "chocoid": "zoom"
-        },
-        {
-          "name": "Thunderbird",
-          "chocoid": "thunderbird"
-        }
-      ]
-    },
-    {
-      "name": "Messaging",
-      "apps": [
-        {
-          "name": "Discord",
-          "chocoid": "discord"
-        },
-        {
-          "name": "Telegram",
-          "chocoid": "telegram"
-        },
-        {
-          "name": "Skype",
-          "chocoid": "skype"
-        },
-        {
-          "name": "Zoom",
-          "chocoid": "zoom"
-        },
-        {
-          "name": "Thunderbird",
-          "chocoid": "thunderbird"
-        }
-      ]
-    },
-    {
-      "name": "Messaging",
-      "apps": [
-        {
-          "name": "Discord",
-          "chocoid": "discord"
-        },
-        {
-          "name": "Telegram",
-          "chocoid": "telegram"
+          "name": "Element (Matrix)",
+          "chocoid": "element-desktop"
         },
         {
           "name": "Thunderbird",
@@ -305,12 +66,20 @@
           "chocoid": "itunes"
         },
         {
+          "name": "Spotify",
+          "chocoid": "spotify"
+        },
+        {
           "name": "VLC",
           "chocoid": "vlc"
         },
         {
           "name": "PotPlayer",
           "chocoid": "potplayer"
+        },
+        {
+          "name": "MPC-HC",
+          "chocoid": "mpc-hc-clsid2"
         }
       ]
     }
