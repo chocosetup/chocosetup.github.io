@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Highlight from "react-highlight";
 import "highlight.js/styles/atom-one-dark.css";
 import "./Generator.css";
@@ -9,16 +9,29 @@ function Generator(props) {
 
   const appInstallCommand = "choco install {1} -y";
 
-  const [script, setScript] = useState("");
-
-  function logPickedApps() {
+  function generateScriptForPickedApps() {
     let script = "";
     script += chocolateyInstallCommand + "\n";
     props.pickedApps.forEach((app) => {
       script += appInstallCommand.replace("{1}", app) + "\n";
     });
-    console.log(script);
-    setScript(script);
+    return script;
+  }
+
+  function startDownload(text) {
+    const filename = "Chocosetup.ps1";
+    const blob = new Blob([text], { type: "text/plain" });
+    if (window.navigator.msSaveOrOpenBlob) {
+      window.navigator.msSaveBlob(blob, filename);
+    } else {
+      const elem = window.document.createElement("a");
+      elem.hidden = true;
+      elem.href = window.URL.createObjectURL(blob);
+      elem.download = filename;
+      document.body.appendChild(elem);
+      elem.click();
+      document.body.removeChild(elem);
+    }
   }
 
   function shouldDisable() {
@@ -27,17 +40,20 @@ function Generator(props) {
 
   return (
     <div className="generator">
-      <h2>2. Download and run your custom installer</h2>
+      <h2>2. Run your custom installer script</h2>
+
       <button
         className="button"
-        type="button"
         disabled={shouldDisable()}
-        onClick={logPickedApps.bind(this)}
+        onClick={() => startDownload(generateScriptForPickedApps())}
       >
-        <span className="text">Generate Script</span>
+        Download Script
       </button>
-      <div className="script-container">
-        <Highlight className="powershell">{script}</Highlight>
+
+      <div className="script-container" hidden={shouldDisable()}>
+        <Highlight className="powershell">
+          {generateScriptForPickedApps()}
+        </Highlight>
       </div>
     </div>
   );
