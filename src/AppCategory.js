@@ -30,7 +30,7 @@ function AppCategory(props) {
                   name="apps"
                   value={app.chocoid}
                 />
-                {app.name}
+                <span className="app-name">{app.name}</span>
               </label>
             </li>
           );

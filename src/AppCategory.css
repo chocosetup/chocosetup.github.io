@@ -9,17 +9,11 @@
     rgba(40, 44, 52, 0.08) 0px 0px 0px 1px;
 }
 
-h3 {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.1;
-  color: inherit;
-}
-
 li {
-  padding-left: 0;
   list-style: none;
   text-align: left;
+  padding: 0;
+  margin-bottom: 0.5rem;
 }
 
 label {
@@ -28,12 +22,19 @@ label {
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 100%;
-  margin-bottom: 5px;
-  font-weight: bold;
-  font-size: 14px;
+  font-size: medium;
 }
 
 ul {
   padding-left: 0;
   list-style: none;
+}
+
+.app-checkbox {
+  vertical-align: middle;
+}
+
+.app-name {
+  vertical-align: middle;
+  margin-left: 0.5rem;
 }
