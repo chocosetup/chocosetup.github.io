@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/chocosetup/static/css/main.f8b15900.chunk.css",
+    "main.css": "/chocosetup/static/css/main.59a5fac7.chunk.css",
     "main.js": "/chocosetup/static/js/main.e15b59cd.chunk.js",
     "main.js.map": "/chocosetup/static/js/main.e15b59cd.chunk.js.map",
     "runtime-main.js": "/chocosetup/static/js/runtime-main.77ee3b14.js",
@@ -9,10 +9,10 @@
     "static/js/2.b45a6b61.chunk.js": "/chocosetup/static/js/2.b45a6b61.chunk.js",
     "static/js/2.b45a6b61.chunk.js.map": "/chocosetup/static/js/2.b45a6b61.chunk.js.map",
     "index.html": "/chocosetup/index.html",
-    "precache-manifest.1d11870348af0c307965febdd04ba85c.js": "/chocosetup/precache-manifest.1d11870348af0c307965febdd04ba85c.js",
+    "precache-manifest.081db36075073ea8fdd8e2fdce3d28f4.js": "/chocosetup/precache-manifest.081db36075073ea8fdd8e2fdce3d28f4.js",
     "service-worker.js": "/chocosetup/service-worker.js",
     "static/css/2.72d72b5e.chunk.css.map": "/chocosetup/static/css/2.72d72b5e.chunk.css.map",
-    "static/css/main.f8b15900.chunk.css.map": "/chocosetup/static/css/main.f8b15900.chunk.css.map",
+    "static/css/main.59a5fac7.chunk.css.map": "/chocosetup/static/css/main.59a5fac7.chunk.css.map",
     "static/js/2.b45a6b61.chunk.js.LICENSE.txt": "/chocosetup/static/js/2.b45a6b61.chunk.js.LICENSE.txt",
     "static/media/brave.svg": "/chocosetup/static/media/brave.a3aab9ac.svg",
     "static/media/discord.svg": "/chocosetup/static/media/discord.f8389ca1.svg",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.77ee3b14.js",
     "static/css/2.72d72b5e.chunk.css",
     "static/js/2.b45a6b61.chunk.js",
-    "static/css/main.f8b15900.chunk.css",
+    "static/css/main.59a5fac7.chunk.css",
     "static/js/main.e15b59cd.chunk.js"
   ]
 }

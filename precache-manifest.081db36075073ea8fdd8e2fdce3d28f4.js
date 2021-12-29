@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0f667d036e1f1b91db4df0ff978e11a5",
+    "revision": "08d1295ec920049f203b9007c5448f89",
     "url": "/chocosetup/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chocosetup/static/css/2.72d72b5e.chunk.css"
   },
   {
-    "revision": "1f71a1020b117d7d53d5",
-    "url": "/chocosetup/static/css/main.f8b15900.chunk.css"
+    "revision": "f5c37b1e023e67378b78",
+    "url": "/chocosetup/static/css/main.59a5fac7.chunk.css"
   },
   {
     "revision": "bef2003ed67b90ffc276",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chocosetup/static/js/2.b45a6b61.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1f71a1020b117d7d53d5",
+    "revision": "f5c37b1e023e67378b78",
     "url": "/chocosetup/static/js/main.e15b59cd.chunk.js"
   },
   {
