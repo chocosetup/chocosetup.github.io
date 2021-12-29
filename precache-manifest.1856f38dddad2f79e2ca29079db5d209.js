@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "08d1295ec920049f203b9007c5448f89",
+    "revision": "0fabcf08079f443f8a13c6f0bcc524f9",
     "url": "/chocosetup/index.html"
   },
   {
-    "revision": "bef2003ed67b90ffc276",
+    "revision": "3c16f75e8ec2e182c2e7",
     "url": "/chocosetup/static/css/2.72d72b5e.chunk.css"
   },
   {
-    "revision": "f5c37b1e023e67378b78",
+    "revision": "76d2fd03c9c6c4cc755f",
     "url": "/chocosetup/static/css/main.59a5fac7.chunk.css"
   },
   {
-    "revision": "bef2003ed67b90ffc276",
-    "url": "/chocosetup/static/js/2.b45a6b61.chunk.js"
+    "revision": "3c16f75e8ec2e182c2e7",
+    "url": "/chocosetup/static/js/2.d54c1b09.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/chocosetup/static/js/2.b45a6b61.chunk.js.LICENSE.txt"
+    "url": "/chocosetup/static/js/2.d54c1b09.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f5c37b1e023e67378b78",
-    "url": "/chocosetup/static/js/main.e15b59cd.chunk.js"
+    "revision": "76d2fd03c9c6c4cc755f",
+    "url": "/chocosetup/static/js/main.9bce604c.chunk.js"
   },
   {
     "revision": "c3d616df241f09dc24be",
     "url": "/chocosetup/static/js/runtime-main.77ee3b14.js"
+  },
+  {
+    "revision": "c7f714561e037acc55a91c1ef2d35d6a",
+    "url": "/chocosetup/static/media/blender.c7f71456.svg"
   },
   {
     "revision": "a3aab9acd6e0d3cb13de033fb1a23365",
@@ -40,12 +44,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chocosetup/static/media/firefox.79000577.svg"
   },
   {
+    "revision": "8ffe2acb0931a8bd52fd82cf7c253bf6",
+    "url": "/chocosetup/static/media/gimp.8ffe2acb.svg"
+  },
+  {
     "revision": "56b24f9aed0c930b6859b2e635c22350",
     "url": "/chocosetup/static/media/googlechrome.56b24f9a.svg"
   },
   {
+    "revision": "6739ab8366acb9b79ddd0f5fd86f903a",
+    "url": "/chocosetup/static/media/inkscape.6739ab83.svg"
+  },
+  {
     "revision": "00f24a2b67d428dc0bd904b01e8697f7",
     "url": "/chocosetup/static/media/itunes.00f24a2b.png"
+  },
+  {
+    "revision": "9c85f0a9264d0014fc1e395faae390fa",
+    "url": "/chocosetup/static/media/javaruntime.9c85f0a9.svg"
+  },
+  {
+    "revision": "30c5b859dfc05a12c34f57ae9270c06b",
+    "url": "/chocosetup/static/media/krita.30c5b859.svg"
   },
   {
     "revision": "0345521bd8e0c1d92f241169c5b71aa2",
@@ -58,6 +78,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "76a63ed4ee3eba8f61bd184c06958851",
     "url": "/chocosetup/static/media/opera.76a63ed4.svg"
+  },
+  {
+    "revision": "90ba0e985cce789c54dec9ca91ce9471",
+    "url": "/chocosetup/static/media/paint.net.90ba0e98.png"
+  },
+  {
+    "revision": "fa5f1526f608c215220b02d7b15beee9",
+    "url": "/chocosetup/static/media/sharex.fa5f1526.png"
+  },
+  {
+    "revision": "d435bdfd06f3917b213cb23d360f778e",
+    "url": "/chocosetup/static/media/silverlight.d435bdfd.png"
   },
   {
     "revision": "d33df0e409a5fec978d2735d8e3b072e",

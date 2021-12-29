@@ -1,27 +1,35 @@
 {
   "files": {
     "main.css": "/chocosetup/static/css/main.59a5fac7.chunk.css",
-    "main.js": "/chocosetup/static/js/main.e15b59cd.chunk.js",
-    "main.js.map": "/chocosetup/static/js/main.e15b59cd.chunk.js.map",
+    "main.js": "/chocosetup/static/js/main.9bce604c.chunk.js",
+    "main.js.map": "/chocosetup/static/js/main.9bce604c.chunk.js.map",
     "runtime-main.js": "/chocosetup/static/js/runtime-main.77ee3b14.js",
     "runtime-main.js.map": "/chocosetup/static/js/runtime-main.77ee3b14.js.map",
     "static/css/2.72d72b5e.chunk.css": "/chocosetup/static/css/2.72d72b5e.chunk.css",
-    "static/js/2.b45a6b61.chunk.js": "/chocosetup/static/js/2.b45a6b61.chunk.js",
-    "static/js/2.b45a6b61.chunk.js.map": "/chocosetup/static/js/2.b45a6b61.chunk.js.map",
+    "static/js/2.d54c1b09.chunk.js": "/chocosetup/static/js/2.d54c1b09.chunk.js",
+    "static/js/2.d54c1b09.chunk.js.map": "/chocosetup/static/js/2.d54c1b09.chunk.js.map",
     "index.html": "/chocosetup/index.html",
-    "precache-manifest.081db36075073ea8fdd8e2fdce3d28f4.js": "/chocosetup/precache-manifest.081db36075073ea8fdd8e2fdce3d28f4.js",
+    "precache-manifest.1856f38dddad2f79e2ca29079db5d209.js": "/chocosetup/precache-manifest.1856f38dddad2f79e2ca29079db5d209.js",
     "service-worker.js": "/chocosetup/service-worker.js",
     "static/css/2.72d72b5e.chunk.css.map": "/chocosetup/static/css/2.72d72b5e.chunk.css.map",
     "static/css/main.59a5fac7.chunk.css.map": "/chocosetup/static/css/main.59a5fac7.chunk.css.map",
-    "static/js/2.b45a6b61.chunk.js.LICENSE.txt": "/chocosetup/static/js/2.b45a6b61.chunk.js.LICENSE.txt",
+    "static/js/2.d54c1b09.chunk.js.LICENSE.txt": "/chocosetup/static/js/2.d54c1b09.chunk.js.LICENSE.txt",
+    "static/media/blender.svg": "/chocosetup/static/media/blender.c7f71456.svg",
     "static/media/brave.svg": "/chocosetup/static/media/brave.a3aab9ac.svg",
     "static/media/discord.svg": "/chocosetup/static/media/discord.f8389ca1.svg",
     "static/media/firefox.svg": "/chocosetup/static/media/firefox.79000577.svg",
+    "static/media/gimp.svg": "/chocosetup/static/media/gimp.8ffe2acb.svg",
     "static/media/googlechrome.svg": "/chocosetup/static/media/googlechrome.56b24f9a.svg",
+    "static/media/inkscape.svg": "/chocosetup/static/media/inkscape.6739ab83.svg",
     "static/media/itunes.png": "/chocosetup/static/media/itunes.00f24a2b.png",
+    "static/media/javaruntime.svg": "/chocosetup/static/media/javaruntime.9c85f0a9.svg",
+    "static/media/krita.svg": "/chocosetup/static/media/krita.30c5b859.svg",
     "static/media/microsoft-edge.png": "/chocosetup/static/media/microsoft-edge.0345521b.png",
     "static/media/mpc-hc-clsid2.png": "/chocosetup/static/media/mpc-hc-clsid2.70250949.png",
     "static/media/opera.svg": "/chocosetup/static/media/opera.76a63ed4.svg",
+    "static/media/paint.net.png": "/chocosetup/static/media/paint.net.90ba0e98.png",
+    "static/media/sharex.png": "/chocosetup/static/media/sharex.fa5f1526.png",
+    "static/media/silverlight.png": "/chocosetup/static/media/silverlight.d435bdfd.png",
     "static/media/thunderbird.png": "/chocosetup/static/media/thunderbird.d33df0e4.png",
     "static/media/vivaldi.png": "/chocosetup/static/media/vivaldi.dae264e9.png",
     "static/media/vlc.png": "/chocosetup/static/media/vlc.c4c2b676.png"
@@ -29,8 +37,8 @@
   "entrypoints": [
     "static/js/runtime-main.77ee3b14.js",
     "static/css/2.72d72b5e.chunk.css",
-    "static/js/2.b45a6b61.chunk.js",
+    "static/js/2.d54c1b09.chunk.js",
     "static/css/main.59a5fac7.chunk.css",
-    "static/js/main.e15b59cd.chunk.js"
+    "static/js/main.9bce604c.chunk.js"
   ]
 }
