@@ -1,4 +1,5 @@
 import React from "react";
+import Icons from "./icons/Icons";
 import "./AppCategory.css";
 
 function AppCategory(props) {
@@ -29,6 +30,11 @@ function AppCategory(props) {
                   className="app-checkbox"
                   name="apps"
                   value={app.chocoid}
+                />
+                <img
+                  className="app-icon"
+                  src={Icons[app.chocoid]}
+                  alt={app.name + " icon"}
                 />
                 <span className="app-name">{app.name}</span>
               </label>

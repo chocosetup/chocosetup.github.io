@@ -17,7 +17,6 @@ li {
 }
 
 label {
-  display: block;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -30,11 +29,10 @@ ul {
   list-style: none;
 }
 
-.app-checkbox {
+.app-checkbox,
+.app-name,
+.app-icon {
   vertical-align: middle;
-}
-
-.app-name {
-  vertical-align: middle;
-  margin-left: 0.5rem;
+  margin-left: 0.75rem;
+  height: 1.5rem;
 }

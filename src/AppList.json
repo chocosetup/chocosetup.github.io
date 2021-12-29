@@ -82,6 +82,56 @@
           "chocoid": "mpc-hc-clsid2"
         }
       ]
+    },
+    {
+      "name": "Runtimes",
+      "apps": [
+        {
+          "name": "Visual C++ Redistributables",
+          "chocoid": "vcredist-all"
+        },
+        {
+          "name": ".NET Desktop Runtime",
+          "chocoid": "dotnet-desktopruntime"
+        },
+        {
+          "name": "Java Runtime",
+          "chocoid": "javaruntime"
+        },
+        {
+          "name": "Silverlight",
+          "chocoid": "silverlight"
+        }
+      ]
+    },
+    {
+      "name": "Imaging",
+      "apps": [
+        {
+          "name": "Krita",
+          "chocoid": "krita"
+        },
+        {
+          "name": "Blender",
+          "chocoid": "blender"
+        },
+        {
+          "name": "Paint.NET",
+          "chocoid": "paint.net"
+        },
+        {
+          "name": "GIMP",
+          "chocoid": "gimp"
+        },
+        {
+          "name": "Inkscape",
+          "chocoid": "inkscape"
+        },
+        {
+          "name": "ShareX",
+          "chocoid": "sharex"
+        }
+      ]
     }
   ]
 }
