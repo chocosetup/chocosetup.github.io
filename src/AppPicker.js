@@ -9,7 +9,7 @@ function AppPicker() {
 
   return (
     <div className="apppicker">
-      <h2>1. Pick the apps you want</h2>
+      <h2>2. Pick the apps you want</h2>
 
       <div className="category-container">
         {AppList.categories.map((category, i) => {

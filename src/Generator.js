@@ -4,34 +4,18 @@ import "highlight.js/styles/atom-one-dark.css";
 import "./Generator.css";
 
 function Generator(props) {
-  const chocolateyInstallCommand = // See: https://chocolatey.org/install#individual
-    "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))";
-
   const appInstallCommand = "choco install {1} -y";
 
   function generateScriptForPickedApps() {
     let script = "";
-    script += chocolateyInstallCommand + "\n";
     props.pickedApps.forEach((app) => {
       script += appInstallCommand.replace("{1}", app) + "\n";
     });
     return script;
   }
 
-  function startDownload(text) {
-    const filename = "Chocosetup.ps1";
-    const blob = new Blob([text], { type: "text/plain" });
-    if (window.navigator.msSaveOrOpenBlob) {
-      window.navigator.msSaveBlob(blob, filename);
-    } else {
-      const elem = window.document.createElement("a");
-      elem.hidden = true;
-      elem.href = window.URL.createObjectURL(blob);
-      elem.download = filename;
-      document.body.appendChild(elem);
-      elem.click();
-      document.body.removeChild(elem);
-    }
+  function copyScript(text) {
+    navigator.clipboard.writeText(text);
   }
 
   function shouldDisable() {
@@ -40,21 +24,32 @@ function Generator(props) {
 
   return (
     <div className="generator">
-      <h2>2. Run your custom installer script</h2>
-
-      <button
-        className="button"
-        disabled={shouldDisable()}
-        onClick={() => startDownload(generateScriptForPickedApps())}
-      >
-        Download Script
-      </button>
+      <h2>3. Run your custom installer script</h2>
+      <p>
+        Copy the generated script and run it in an{" "}
+        <a
+          href="https://www.howtogeek.com/194041/how-to-open-the-command-prompt-as-administrator-in-windows-8.1/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          administrative shell
+        </a>
+        .
+      </p>
 
       <div className="script-container" hidden={shouldDisable()}>
         <Highlight className="powershell">
           {generateScriptForPickedApps()}
         </Highlight>
       </div>
+
+      <button
+        className="button"
+        disabled={shouldDisable()}
+        onClick={() => copyScript(generateScriptForPickedApps())}
+      >
+        Copy Script
+      </button>
     </div>
   );
 }
