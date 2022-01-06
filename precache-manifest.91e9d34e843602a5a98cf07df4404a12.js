@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f907dcba8d04a43a38dfb6cf92216b94",
+    "revision": "7408dd208cc882a4c6ccefd7b5fc0938",
     "url": "/chocosetup/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chocosetup/static/css/2.72d72b5e.chunk.css"
   },
   {
-    "revision": "76d2fd03c9c6c4cc755f",
-    "url": "/chocosetup/static/css/main.59a5fac7.chunk.css"
+    "revision": "fc4b191964154058f326",
+    "url": "/chocosetup/static/css/main.a0e61702.chunk.css"
   },
   {
     "revision": "3c16f75e8ec2e182c2e7",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chocosetup/static/js/2.d54c1b09.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "76d2fd03c9c6c4cc755f",
-    "url": "/chocosetup/static/js/main.9bce604c.chunk.js"
+    "revision": "fc4b191964154058f326",
+    "url": "/chocosetup/static/js/main.86e34914.chunk.js"
   },
   {
     "revision": "c3d616df241f09dc24be",
