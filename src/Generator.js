@@ -1,14 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Highlight from "react-highlight";
 import "highlight.js/styles/atom-one-dark.css";
 import "./Generator.css";
+import { HiClipboardCopy, HiClipboardCheck } from "react-icons/hi";
 
 function Generator(props) {
-  const appInstallCommand = "choco install {1} -y";
+  const [scriptCopied, setScriptCopied] = useState(false);
 
-  function generateScriptForPickedApps() {
+  useEffect(() => {
+    setScriptCopied(false);
+  }, [props.pickedApps]);
+
+  const scriptIsEmpty = props.pickedApps.size === 0;
+
+  const script = generateScriptForPickedApps(props.pickedApps);
+
+  function generateScriptForPickedApps(pickedApps) {
+    const appInstallCommand = "choco install {1} -y";
     let script = "";
-    props.pickedApps.forEach((app) => {
+    pickedApps.forEach((app) => {
       script += appInstallCommand.replace("{1}", app) + "\n";
     });
     return script;
@@ -16,10 +26,7 @@ function Generator(props) {
 
   function copyScript(text) {
     navigator.clipboard.writeText(text);
-  }
-
-  function shouldDisable() {
-    return props.pickedApps.size === 0;
+    setScriptCopied(true);
   }
 
   return (
@@ -37,18 +44,21 @@ function Generator(props) {
         .
       </p>
 
-      <div className="script-container" hidden={shouldDisable()}>
-        <Highlight className="powershell">
-          {generateScriptForPickedApps()}
-        </Highlight>
+      <div className="script-container" hidden={scriptIsEmpty}>
+        <Highlight className="powershell">{script}</Highlight>
       </div>
 
       <button
         className="button"
-        disabled={shouldDisable()}
-        onClick={() => copyScript(generateScriptForPickedApps())}
+        disabled={scriptIsEmpty}
+        onClick={() => copyScript(script)}
       >
-        Copy Script
+        Copy Script{" "}
+        {scriptCopied ? (
+          <HiClipboardCheck className="react-icon" />
+        ) : (
+          <HiClipboardCopy className="react-icon" />
+        )}
       </button>
     </div>
   );

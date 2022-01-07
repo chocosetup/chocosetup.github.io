@@ -16,6 +16,7 @@
   min-width: 10rem;
   padding: 16px 20px;
   text-align: center;
+  vertical-align: middle;
   transition: all 0.2s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 
@@ -36,4 +37,9 @@
   text-align: left;
   box-shadow: rgba(40, 44, 52, 0.25) 0px 4px 8px -2px,
     rgba(40, 44, 52, 0.08) 0px 0px 0px 1px;
+}
+
+.react-icon {
+  vertical-align: top;
+  padding-left: 0.5rem;
 }
